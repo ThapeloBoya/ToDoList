@@ -1,0 +1,88 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  margin-top: 50px;
+}
+
+.task-input input,
+.task-input select,
+.task-input button {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.search-bar input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 10px 15px;
+  margin: 5px 0;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.task-list li .priority {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.task-list li .priority.high {
+  color: #dc3545;
+}
+
+.task-list li .priority.medium {
+  color: #ffc107;
+}
+
+.task-list li .priority.low {
+  color: #28a745;
+}
+
+.undo-section button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.undo-section button:hover {
+  background-color: #e0a800;
+}
