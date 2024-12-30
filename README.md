@@ -14,7 +14,7 @@ A simple React-based to-do list app that allows users to manage tasks with featu
 
 ## Screenshots
 
-![To-Do App Screenshot](link-to-your-screenshot)
+![To-Do App Screenshot](public/todo.png)
 
 ## Demo
 
